@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markers File Upload</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5boNPhSi-2pW6GwokOjhuiXe4rOEP8vw4SA&s" alt="Company Logo">
+    </div>
+    <div class="container">
+        <h1>Upload Markers Folder</h1>
+    
+        <form id="uploadForm" enctype="multipart/form-data">
+            <input type="file" id="folderInput" webkitdirectory directory multiple>
+            <button type="button" id="upload">Upload</button>
+        </form>
+    </div>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
